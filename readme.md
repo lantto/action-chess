@@ -1,52 +1,12 @@
-# Stencil App Starter
+# ACTION CHESS!
 
-Stencil is a compiler for building fast web apps using Web Components.
+think regular chess, but each piece has a "cool down" and its not turn based. i,e, you can move as many pieecs as you want as fast as you want (as long as they are not on cooldown, so you can move for instance one specific pawn every 3s)
 
-Stencil combines the best concepts of the most popular frontend frameworks into a compile-time rather than run-time tool.  Stencil takes TypeScript, JSX, a tiny virtual DOM layer, efficient one-way data binding, an asynchronous rendering pipeline (similar to React Fiber), and lazy-loading out of the box, and generates 100% standards-based Web Components that run in any browser supporting the Custom Elements v1 spec.
+you can move your queen every 30s or something
+so the faster you can play the better, if you can manage your resources
+also there should be some sort of mana-system where each move costs mana that refills every x seconds
+ACTION CHESS!
 
-Stencil components are just Web Components, so they work in any major framework or with no framework at all. In many cases, Stencil can be used as a drop in replacement for traditional frontend frameworks given the capabilities now available in the browser, though using it as such is certainly not required.
+you can use mana to power up certain pieces and give them ultimates
 
-Stencil also enables a number of key capabilities on top of Web Components, in particular Server Side Rendering (SSR) without the need to run a headless browser, pre-rendering, and objects-as-properties (instead of just strings).
-
-## Getting Started
-
-To start a new project using Stencil, clone this repo to a new directory:
-
-```bash
-git clone https://github.com/ionic-team/stencil-starter.git my-app
-cd my-app
-git remote rm origin
-```
-
-and run:
-
-```bash
-npm install
-npm start
-```
-
-To view the build, start an HTTP server inside of the `/www` directory.
-
-To watch for file changes during development, run:
-
-```bash
-npm run dev
-```
-
-To build the app for production, run:
-
-```bash
-npm run build
-```
-
-To run the unit tests once, run:
-
-```
-npm test
-```
-
-To run the unit tests and watch for file changes during development, run:
-
-```
-npm run test.watch
-```
+you can draw special abilities from a deck like time warp (rewind the state of a 3x3 sub-grid 5 seconds) or cloak (all units inside a 3x3 sub grid become invisible for 5 seconds)
